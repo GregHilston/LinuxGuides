@@ -1,0 +1,3 @@
+sudo ifconfig <interface> down
+sudo ifconfig <interface> hw addr <new_MAC_address>
+sudo ifconfig <interface> up

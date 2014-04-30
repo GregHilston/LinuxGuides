@@ -1,0 +1,7 @@
+sudo vim /home/greg/.config/lxsession/Lubuntu/autostat
+
+@<program name>
+
+Save and close. Upon reboot empathy should start right up. 
+
+Also see: lxsession-default-apps

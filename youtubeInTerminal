@@ -1,0 +1,1 @@
+youtube-dl http://www.youtube.com/watch?v=OC83NA5tAGE -o - | mplayer -vo aa -monitorpixelaspect 0.5 -

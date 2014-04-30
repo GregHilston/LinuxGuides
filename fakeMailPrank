@@ -1,0 +1,1 @@
+mail -s “your subject” --append=FROM:fakeemailaddress to-emailaddress < mail.txt

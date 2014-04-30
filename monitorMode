@@ -1,0 +1,7 @@
+use ifconfig to pick the network card (lets say wlan0):
+
+Turn on monitor mode: sudo airmon-ng start wlan0
+
+Turn off monitor mode: sudo airmon-ng stop mon0
+
+Note: Monitor mode at hotel, find MAC, spoof mac, get free wifi

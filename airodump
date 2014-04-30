@@ -1,0 +1,10 @@
+use ifconfig to pick the network card (lets say wlan0)
+
+turn on monitor mode: sudo airmon-ng start wlan0
+
+start airodump: sudo airodump-ng mon0
+
+When done
+
+Turn off monitor mode: Turn off monitor mode: sudo airmon-ng stop mon0
+

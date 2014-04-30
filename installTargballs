@@ -1,0 +1,26 @@
+s them, execute the following command(s) depending on the extension:
+$ tar zxf file.tar.gz
+$ tar zxf file.tgz
+$ tar jxf file.tar.bz2
+$ tar jxf file.tbz2
+
+Now change directory
+$ ls
+$ cd path-to-software/
+# 2: Build and install software
+
+Generally you need to type 3 commands as follows for building and compiling software:
+# ./configure
+# make
+# make install
+
+Where,
+
+    ./configure will configure the software to ensure your system has the necessary functionality and libraries to successfully compile the package
+    make will compile all the source files into executable binaries.
+    Finally, make install will install the binaries and any supporting files into the appropriate locations.
+
+# 3: Read INSTALL / README file
+
+Each tarball comes with installation and build instructions. Open INSTALL or README file for more information:
+$ vi INSTALL them, execute the following command(s) depending on the extension:
