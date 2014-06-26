@@ -1,0 +1,1 @@
+ssh pi@192.168.1.24 "cat test.mp3" | mplayer -
